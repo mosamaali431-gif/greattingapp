@@ -12,4 +12,4 @@ st.title("مرحيا بكم في مـوقـعنا الاول ياسـتخد ام
 name = st.text_input("ما هو اسمك")
 if name:
     st.write("نورت الـمـوقع", name, "مرحيا بك ي")
-    st.ballonns()
+    st.balloons()

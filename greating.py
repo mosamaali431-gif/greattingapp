@@ -8,8 +8,8 @@ Original file is located at
 """
 
 import streamlit as st
-st.title("مرحيا بكم في مـوقـعنا الاول ياسـتخد ام ستريم ليت ")
-name = st.text_input("ما هو اسمك")
+st.title("Welcome to our premier site for using Streamlit. ")
+name = st.text_input("what is your name")
 if name:
-    st.write("نورت الـمـوقع", name, "مرحيا بك ي")
+    st.write("You've brightened up the site.", name, "Welcome")
     st.balloons()
